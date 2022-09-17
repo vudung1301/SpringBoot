@@ -1,0 +1,174 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-color:#1b203d;
+	font-family: system-ui;
+  color: orange;
+}
+.clearfix{
+	clear: both;
+}
+.logo{
+	margin: 0px;
+	margin-left: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+.logo span{
+	color: #f7403b;
+}
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #272c4a;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+}
+.sidenav a {
+  padding: 15px 8px 15px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color:#1b203d;
+}
+.sidenav{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  margin-left: 300px;
+}
+.head{
+	padding:20px;
+}
+.col-div-6{
+	width: 50%;
+	float: left;
+}
+.nav2{
+  display: none;
+}
+.addproduct->button{
+  border: none;
+  width: 150px;
+  height: 40px;
+  background: #3399FF;
+  margin-top: 30px;
+}
+.addproduct ->button a{
+  font-family: system-ui;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.addproduct -> button:hover{
+  background-color:#3300FF ;
+  transition: 0.5s;
+}
+.listproduct{
+  padding-top: 20px;
+}
+.listproduct td{
+  padding: 10px 40px;
+}
+.form{
+      color: white;
+}
+table tr td{
+  border: 1px solid white;
+  color: white;
+}
+table{
+  color: orange;
+}
+
+.button-42 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100px;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+  margin: 3px 0;
+}
+
+.button-42:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+.button-42 a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.button-41 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 300px;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+  margin: 3px 0;
+}
+
+.button-41:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+.button-41 a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}

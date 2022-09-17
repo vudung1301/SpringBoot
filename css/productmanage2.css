@@ -1,0 +1,127 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-color:#1b203d;
+	font-family: system-ui;
+  color: white;
+}
+.clearfix{
+	clear: both;
+}
+.logo{
+	margin: 0px;
+	margin-left: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+.logo span{
+	color: #f7403b;
+}
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #272c4a;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+}
+.sidenav a {
+  padding: 15px 8px 15px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color:#1b203d;
+}
+.sidenav{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  margin-left: 300px;
+}
+.head{
+	padding:20px;
+}
+.col-div-6{
+	width: 50%;
+	float: left;
+}
+.nav2{
+  display: none;
+}
+.addproduct button{
+  border: none;
+  width: 150px;
+  height: 40px;
+  background: #3399FF;
+  margin-top: 30px;
+}
+.addproduct button a{
+  font-family: system-ui;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.addproduct button:hover{
+  background-color:#3300FF ;
+  transition: 0.5s;
+}
+.listproduct{
+  padding-top: 20px;
+}
+.listproduct tr td{
+  padding: 10px 40px;
+}
+.listproduct td{
+  border: 1px solid white;
+}
+<!-- HTML !-->
+<button class="button-36" role="button">Button 36</button>
+
+/* CSS */
+.button-36 {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-36:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}

@@ -1,0 +1,141 @@
+html {
+    background: #bbc3c6;
+    font: 62.5%/1.5em "Trebuchet Ms", helvetica;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: 'Shopper';
+    src: url('http://www.shopperfont.com/font/Shopper-Std.ttf');
+}
+
+.shopper {
+    text-transform: lowercase;
+    font: 2em 'Shopper', sans-serif;
+    line-height: 0.5em;
+    display: inline-block;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.5em;
+    color: #8a8a8a;
+}
+
+input {
+    border: 0.3em solid #bbc3c6;
+    padding: 0.5em 0.3em;
+    font-size: 1.4em;
+    color: #8a8a8a;
+    text-align: left;
+}
+
+img {
+    max-width: 9em;
+    width: 100%;
+    overflow: hidden;
+    margin-right: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1320px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0.6em;
+    background: #ecf0f1;
+    box-shadow: 0 0.5em 0 rgba(138, 148, 152, 0.2);
+}
+
+.content {
+    width: 66.66666667%;
+    display: flex;
+    margin: 0 5px 0 10px;
+    background-color: #fff;
+    border-radius: 0.6em;
+    flex-direction: column;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 0.3em;
+    font-size: 1.4em;
+    font-weight: bold;
+    background: #43ace3;
+    color: #fff;
+    box-shadow: 0 3px 0 rgba(59,154,198, 1);
+}
+
+    .btn:hover {
+        box-shadow: 0 3px 0 rgba(59,154,198, 0);
+    }
+
+.btn-update {
+    width: min-content;
+    margin: 2em;
+    margin-left: auto;
+}
+
+.form-group {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5em 8em;
+}
+
+.info-title {
+    font-size: 14px;
+    margin: 16px;
+    font-weight: 500;
+}
+
+.text-input {
+    width: 75%;
+}
+
+.title-container {
+    font-size: 2.5em;
+    padding: 0.7em;
+    margin: 0;
+    border-bottom: #bbc3c6 solid 1px ;
+}
+
+.acc_menu {
+    width: 33.33333333%;
+    display: flex;
+    margin: 0 10px 0 5px;
+    background-color: #fff;
+    border-radius: 0.6em;
+    flex-direction: column;
+}
+
+.acc_menu ul li {
+    border-bottom: rgba(0,0,0,.1) solid 1px;
+}
+.acc_menu ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 1.6em;
+    padding: 1.1em;
+}
+
+
+.transition {
+    transition: all 0.3s ease-in-out;
+}
